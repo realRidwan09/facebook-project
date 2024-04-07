@@ -31,7 +31,7 @@ function Signinpage (props){
 
                     <div className="formwrap">
 
-                            <form id="formrap" onSubmit={subhandler}>
+                            <form id="form" onSubmit={subhandler}>
 
                         
                                 <input id='inputsignin' type="text" placeholder="Email address or phone number" />
@@ -42,13 +42,18 @@ function Signinpage (props){
                                 <br />
 
                                 <a href="">forgotten password?</a>
-
+                                <br />
+                                    <br />
                                     <hr />
+                                    <br />
                                 <button id='cna' type='submit' onClick={()=>{togglePage()}}>Create new account</button>
+                                <br />
+                                <br />
+                                
                             </form>
 
                             <div id='formtext'>
-                                <p>Create a Page for a celebrity, brand or business.</p>
+                                <p><span>Create a Page</span> for a celebrity, brand or business.</p>
                             </div>
                     </div>
 

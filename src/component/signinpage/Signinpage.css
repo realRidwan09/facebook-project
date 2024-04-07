@@ -19,7 +19,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 80px;
-    height: 90%;
+    height: 100%;
     width: 100%;
 
    
@@ -30,38 +30,28 @@ section{
 #textwrap{
     
     text-align: start;
+    margin-left: 100px;
 
     
 }
 
-#formwrap{
-    height: 65%;
+#form{
+    
     width:75%;
-    margin-right: 50px;
     background-color: white;
-}
-
-
-#formwrap{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-    width: 50%;
-    height: 90%;
     border-radius: 10px;
-    padding: 10px;
 }
+
 
 #inputsignin{
     width: 90%;
     height: 50px;
     border-radius: 5px;
-    border-style:groove;
-    border-width: 2px;
-    border-color: rgb(61, 99, 249) ;
+    border-width: 1px;
+    border-color: rgb(248, 243, 243);
     background-color: white;
-    margin: 5px;
+    margin: 10px;
+    margin-left: 20px;
 
 }
 
@@ -73,7 +63,9 @@ section{
     color: white;
     font-size: large;
     font-weight: bolder;
-    margin: 5px;
+    margin: 10px;
+    margin-left: 20px;
+    border-color: rgb(248, 243, 243);
 }
 
 a{
@@ -81,7 +73,7 @@ a{
     background-color: white;
     color: rgb(61, 99, 248);
     text-decoration: none;
-    margin-left: 135px;
+    margin-left: 125px;
 
 }
 
@@ -90,20 +82,19 @@ a{
     height: 50px;
     width: 190px;
     border-radius: 5px;
-    border: 2px;
+    border-width: 1px;
     color: white;
     background-color: rgb(15, 194, 15);
     font-size: large;
     font-weight: bolder;
-    margin: 15px;
-    margin-left: 100px;
+    margin-left: 95px;
 }
 
 #fb{
     font-size: 60px;
     color:rgb(61, 99, 248);
     font-family:Arial, Helvetica, sans-serif;
-    margin-left: 80px;
+    margin-left: 100px;
     
 }
 
@@ -113,6 +104,8 @@ h2{
     font-size: 30px;
     font-weight: 100;
     margin-bottom: 70px;
+    margin-left: 100px;
+    
 }
 
 .backGroundBlur{
@@ -122,3 +115,12 @@ h2{
 }
 
 
+
+p{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+span{
+    font-weight:bolder
+}
